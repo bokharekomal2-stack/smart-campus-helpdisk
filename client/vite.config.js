@@ -20,10 +20,8 @@ export default defineConfig({
     },
   },
 
-preview: {
-  host: '0.0.0.0',
-  port: 4173,
-  allowedHosts: ['smart-campus-helpdisk-client.onrender.com'],
-
+  preview: {
+    host: true,
+    allowedHosts: true,
   },
 });
